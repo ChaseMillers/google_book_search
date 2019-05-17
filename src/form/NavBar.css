@@ -1,0 +1,36 @@
+
+  .addbookmark h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    background: blue; /*for browsers that dont support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .addbookmark p {
+    margin:5px 0;
+    padding:0 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .addbookmark header{
+     padding: 20px 0 60px 0;
+     background: black;
+  }
+
+  .addbookmark .search{
+      text-align: center;
+      background: rgb(19, 253, 70);
+  }
+
+  .addbookmark .parameters{
+    text-align: center;
+    background: rgb(4, 196, 255);
+  }
